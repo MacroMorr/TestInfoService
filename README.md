@@ -9,7 +9,9 @@
 3. Требуемые пакеты PHP 7+, Composer 2+
 
 3. #### Создать БД MYSQL
-   > create database `TestInfoService` character set utf8 collate utf8_general_ci;
+   ```
+   create database `TestInfoService` character set utf8 collate utf8_general_ci;
+   ```
    
    > В таблица users, разрешить полю email_verified_at в default значении NULL 
    
