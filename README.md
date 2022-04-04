@@ -20,7 +20,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 3. ####Создать БД MYSQL
    >create database `TestInfoService` character set utf8 collate utf8_general_ci;
    
-4. #### Заполнить файл .evn.example
+4. #### Заполнить файл .evn.example > DB_CONNECTION=mysql и MAIL_MAILER=smtp
    
 5. ####Сделайть Миграцию
 ```php artisan migrate```
