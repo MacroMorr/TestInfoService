@@ -14,8 +14,8 @@ MAIL_FROM_ADDRESS=admin@laravel.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
-1. В терминале: **git clone https://github.com/MacroMorr/TestInfoService.git**
-2. Требуемые пакеты PHP 7+, Composer 2+
+1. В терминале: **git clone  https://github.com/MacroMorr/TestInfoSevice.git**
+3. Требуемые пакеты PHP 7+, Composer 2+
 
 3. ####Создать БД MYSQL
    >create database `TestInfoService` character set utf8 collate utf8_general_ci;
