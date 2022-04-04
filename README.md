@@ -15,7 +15,7 @@
    
 4. #### Заполнить файл .evn.example > DB_CONNECTION=mysql и MAIL_MAILER=smtp
    
-5. #### Сделайть Миграцию
+5. #### Сделать Миграцию
 ```php artisan migrate```
 
 6. #### Запустить проект
