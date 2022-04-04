@@ -13,7 +13,7 @@
    create database `TestInfoService` character set utf8 collate utf8_general_ci;
    ```
    
-   > В таблица users, разрешить полю email_verified_at в default значении NULL 
+   > В таблица ```users```, разрешить полю ```email_verified_at в default значении NULL``` 
    
 4. #### Заполнить файл .evn.example > DB_CONNECTION=mysql и MAIL_MAILER=smtp
    
