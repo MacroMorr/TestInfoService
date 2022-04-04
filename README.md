@@ -16,10 +16,14 @@
 4. #### Заполнить файл .evn.example > DB_CONNECTION=mysql и MAIL_MAILER=smtp
    
 5. #### Сделать Миграцию
-```php artisan migrate```
+```
+php artisan migrate
+```
 
 6. #### Запустить проект
-   ```php artisan serve```
+   ```
+   php artisan serve
+   ```
    
    #### Преобразование файлов внутри проекта (Установка Node.JS) - в случае отсутствия
    #### Устанавливаются библиотеки - npm i (npm install) - в случае отсуствия
