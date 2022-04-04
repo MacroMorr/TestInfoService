@@ -19,14 +19,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 3. ####Создать БД MYSQL
    >create database `TestInfoService` character set utf8 collate utf8_general_ci;
-   ### в файле .evn 
-   ##### обратите внимание на DB_PORT=3306, DB_USERNAME=root и DB_PASSWORD=root (введите свои данные, если они другие)
-   ```DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=TestInfoService
-   DB_USERNAME=root
-   DB_PASSWORD=root```
+   ### Заполнить файл .evn.example
    
 4. ####Сделайть Миграцию
 ```php artisan migrate```
