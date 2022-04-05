@@ -8,7 +8,9 @@
 
 2. В терминале: **git clone  https://github.com/MacroMorr/TestInfoSevice.git**
 3. Перейти в папку с проектом, выполнить ```composer update```
-4. #### Создать БД MYSQL
+4. Создать файл .evn командой ```cp .env.example .env```, сгенерировать новый ключ ```php artisan key:generate```
+
+5. #### Создать БД MYSQL
    ```
    create database `TestInfoService` character set utf8 collate utf8_general_ci;
    ```
@@ -22,7 +24,8 @@
 php artisan migrate
 ```
 
-7. #### Запустить проект
+7. #### Запустить проект (предварительно очистив кЭш)
+   ```php artisan config:cache```
    ```
    php artisan serve
    ```
